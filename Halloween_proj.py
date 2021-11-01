@@ -64,7 +64,7 @@ def countdown():
       timer.clear
       score_count.clear
       background.bgpic("68tz.gif")
-
+      gravestone.write("YOU LOSE", font=("Arial",50,"bold"))
     else:
       gravestone.clear()
       gravestone.color("red")
